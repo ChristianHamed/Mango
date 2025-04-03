@@ -22,7 +22,8 @@ public class Main {
     
     int a = 0;
     
-    tv.encender();
+    System.out.println(tv.encender());
+    System.out.println(pc.encender());
     tv.cambiarVolumen(62);
     
     pc.encender();
